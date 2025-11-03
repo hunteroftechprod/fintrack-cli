@@ -2,7 +2,6 @@
 ![Maven](https://img.shields.io/badge/Build-Maven-orange?logo=apachemaven)
 ![CLI](https://img.shields.io/badge/App-CLI-lightgrey?logo=terminal)
 ![GitHub repo size](https://img.shields.io/github/repo-size/hunteroftechprod/fintrack-cli)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![Build Passing](https://img.shields.io/badge/build-passing-brightgreen)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey)
 
