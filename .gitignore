@@ -1,0 +1,8 @@
+target/
+.idea/
+*.iml
+.DS_Store
+users/
+*.log
+out.json
+out.csv
