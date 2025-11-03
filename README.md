@@ -1,11 +1,26 @@
-FinTrack CLI — менеджер личных финансов (Java 17, Maven)
+![Java](https://img.shields.io/badge/Java-17-blue?logo=openjdk)
+![Maven](https://img.shields.io/badge/Build-Maven-orange?logo=apachemaven)
+![CLI](https://img.shields.io/badge/App-CLI-lightgrey?logo=terminal)
+![GitHub repo size](https://img.shields.io/github/repo-size/hunteroftechprod/fintrack-cli)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Build Passing](https://img.shields.io/badge/build-passing-brightgreen)
+![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey)
+
+
+# FinTrack CLI — менеджер личных финансов (Java 17, Maven)
 CLI-приложение для управления личными финансами: многопользовательская авторизация, доходы и расходы, бюджеты, переводы между 
 пользователями,эскпорт/импорт,валидация и автоматическое сохранение данных.
 
  Сборка проекта
 mvn -q -DskipTests package
+
+
  Запуск приложения
 java -jar target/fintrack-cli-1.0.0-jar-with-dependencies.jar
+
+
+Тесты
+mvn test
 
 register <login> <password>                 — регистрация пользователя  
 login <login> <password>                    — вход (загрузка кошелька)  
